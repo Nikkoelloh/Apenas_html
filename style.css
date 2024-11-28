@@ -1,0 +1,53 @@
+
+h1{
+    color: rgb(116, 64, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 15.0rem;
+    text-decoration-line: underline;
+}
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Define duas colunas: uma para a imagem e outra para o texto */
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
+    font-size: 15.0rem;
+    color: rgb(196, 78, 0);
+}
+.container img {
+    width: 2500px; /* Largura da imagem */
+    height: 1000; /* Altura automática para manter a proporção */
+}
+h2{
+    color: rgb(155, 85, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 10.0rem;
+}
+.caixa-transparente { background-color: rgba(255, 255, 255, 0.5); /* cor branca com 50% de transparência */
+     padding: 10px; /* espaço interno */ 
+     border-radius: 10px; /* bordas arredondadas */ 
+     display: flex; /* usa flexbox para alinhar os itens em uma linha */
+      justify-content: 29; /* distribui espaço uniformemente entre os itens */ 
+      width: 100%; /* largura da caixa */
+       margin: auto; /* centraliza a caixa */ } 
+       
+ .caixa-transparente img { margin: 200px; /* espaçamento entre as imagens */
+        height: auto; /* mantém a proporção da imagem */ } 
+
+.imagem1 { width: 90%; /* largura da primeira imagem */ 
+
+} 
+
+.imagem2 { width: 100%; /* largura da segunda imagem */
+}
+
+.container, .direito { display: flex; align-items: center; /* Alinha verticalmente o texto e a imagem */ }
+ .imagem { margin-right: 10px; /* Espaçamento entre a imagem e o texto */ } 
+
+ .img1 { width: 1000px; /* Aumenta a largura da primeira imagem */ height: 500; /* Mantém a proporção da imagem */ }
+
+ .img2 { width: 1000px; /* Aumenta a largura da segunda imagem */ height: 1000; /* Mantém a proporção da imagem */ } 
+
+ .texto { flex: 1; /* O texto ocupa o espaço restante */ }
+
+
